@@ -1,11 +1,10 @@
 import carrito from "./assets/carrito.svg"
+import "./CardWidget.css"
 
 function CardWidget(){
     return(
-        <div>
-            
-            <img src={carrito} alt="cart-widget" />
-            3
+        <div className="Contenedor-carrito">
+            <img src={carrito} alt="cart-widget" className="carrito" />
         </div>
     )
 }

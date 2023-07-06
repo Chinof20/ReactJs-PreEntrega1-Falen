@@ -1,0 +1,28 @@
+*{
+    font-size: 28px;
+}
+
+
+.nav{
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.5);
+    color: black;
+    border-radius: 20px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Secciones{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.logo{
+    width: 5rem;
+    height: 3rem;
+}

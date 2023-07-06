@@ -1,0 +1,17 @@
+*{
+    font-size: 28px;
+}
+
+.Contenedor-carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carrito{
+    font-size: 10rem;
+    width: 30px;
+    height: 30px;
+}
